@@ -1,0 +1,16 @@
+pipeline{
+    agent any
+    
+        
+    stages{
+        stage("Builld"){
+        
+         options {
+            timestamps()
+         }
+         steps{
+            echo "hello world"
+         }
+        }
+    }
+}
